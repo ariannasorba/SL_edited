@@ -1,0 +1,55 @@
+This is BibTeX, Version 0.99d (TeX Live 2017)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: main.aux
+The style file: apalike.bst
+A level-1 auxiliary file: preamble.aux
+A level-1 auxiliary file: Chapters/introduction.aux
+A level-1 auxiliary file: Chapters/cass_chapter.aux
+A level-1 auxiliary file: Chapters/compressibility_chapter.aux
+A level-1 auxiliary file: Chapters/equinox_chapter.aux
+A level-1 auxiliary file: Chapters/LT_chapter.aux
+A level-1 auxiliary file: Chapters/conclusions.aux
+Database file #1: main.bib
+Warning--can't use both author and editor fields in narvaez2004
+You've used 118 entries,
+            1935 wiz_defined-function locations,
+            1077 strings with 29591 characters,
+and the built_in function-call counts, 59516 in all, are:
+= -- 5355
+> -- 4005
+< -- 37
++ -- 1483
+- -- 1462
+* -- 5749
+:= -- 10726
+add.period$ -- 358
+call.type$ -- 118
+change.case$ -- 1307
+chr.to.int$ -- 115
+cite$ -- 119
+duplicate$ -- 1673
+empty$ -- 3277
+format.name$ -- 1624
+if$ -- 11137
+int.to.chr$ -- 4
+int.to.str$ -- 0
+missing$ -- 122
+newline$ -- 596
+num.names$ -- 358
+pop$ -- 1079
+preamble$ -- 1
+purify$ -- 1311
+quote$ -- 0
+skip$ -- 1279
+stack$ -- 0
+substring$ -- 3468
+swap$ -- 156
+text.length$ -- 4
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 698
+warning$ -- 1
+while$ -- 354
+width$ -- 0
+write$ -- 1540
+(There was 1 warning)
