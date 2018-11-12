@@ -1,6 +1,14 @@
 %\graphicspath{{./Figures/}} AMS moved this so that I can not build this bit every time
 \maketitle
 %\makedeclaration
+
+\chapter*{}
+%\begin{flushright}
+\begin{center}
+\textit{TBD - For Nonna, and her tomato sauce.}
+\end{center}
+%\end{flushright}
+
 \begin{declaration}
 I, Arianna M. Sorba, confirm that the work presented in this thesis is my own.
 Where information has been derived from other sources, I confirm that this has been indicated.
@@ -18,6 +26,7 @@ In addition, I declare that the work presented in this thesis has been published
 \bibentry{sorba2019}.
 
 \end{declaration}
+
 \begin{abstract} % 300 word limit
 TBD - based on examiner nomination form text.
 \blindtext
@@ -29,6 +38,7 @@ Inside or outside academia. Maybe what I put in my SWAP about the point of scien
 \blindtext 
 \end{impactstatement}
 
+
 \begin{acknowledgements}
 TBD - everyone! Also maybe try and insert a dedication before this page?
 \blindtext
@@ -39,6 +49,15 @@ TBD - everyone! Also maybe try and insert a dedication before this page?
 %  more minor section headers.
 
 \tableofcontents
+%\listoffigures
+
+\cleardoublepage %below 3 lines added by AMS to make appear in contents list following https://tex.stackexchange.com/questions/48509/insert-list-of-figures-in-the-table-of-contents
+\phantomsection
+\addcontentsline{toc}{chapter}{\listfigurename}
 \listoffigures
+
+\cleardoublepage %below 3 lines added by AMS to make appear in contents list
+\phantomsection
+\addcontentsline{toc}{chapter}{\listtablename}
 \listoftables
 
