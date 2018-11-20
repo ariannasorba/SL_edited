@@ -187,12 +187,29 @@
 %  Define a new style so that all the standard styles are available.
 %    \begin{macrocode}
 \def \ps@headings{%
-    \def \@oddhead{\normalfont \rmfamily \slshape \hfill \rightmark \hfill \thepage}% commented  out by AMS to replace with underlined
-    \def \@evenhead{\normalfont \rmfamily \slshape \thepage \hfill \leftmark \hfill}%
- %     \def\@oddhead{\makebox[\textwidth][l]{\underline{\hbox to \textwidth %oddhead and evenhead added by AMS from Jon's template
- %     {\normalsize \raisebox{0ex}[0ex][1.2ex]{\itshape \rightmark}\hfill\thepage}}}}
-  %    \def\@evenhead{\makebox[\textwidth][r]{\underline{\hbox to \textwidth
-   %   {\normalsize \raisebox{0ex}[0ex][1.2ex]\thepage\hfill{\itshape \leftmark}}}}}
+% original heading definition (AMS)
+ %  \def \@oddhead{\normalfont \rmfamily \slshape \hfill \rightmark \hfill \thepage}% commented  out by AMS to replace with underlined below
+  % \def \@evenhead{\normalfont \rmfamily \slshape \thepage \hfill \leftmark \hfill}%
+   
+   % definition with smaller text (AMS)
+   \def \@oddhead{\small \rmfamily \slshape \hfill \rightmark \hfill \thepage}% commented  out by AMS to replace with underlined below
+   \def \@evenhead{\small \rmfamily \slshape \thepage \hfill \leftmark \hfill}%
+
+ % heading definition copied from Jon's template to get lines (AMS)
+ %     \def\@oddhead{\makebox[\textwidth][l]{\underline{\hbox to \textwidth 
+  %    {\normalsize \raisebox{0ex}[0ex][1.2ex]{\itshape \rightmark}\hfill\thepage}}}}
+   %   \def\@evenhead{\makebox[\textwidth][r]{\underline{\hbox to \textwidth
+     % {\normalsize \raisebox{0ex}[0ex][1.2ex]\thepage\hfill{\itshape \leftmark}}}}}
+     
+%  merge of  two heading definitions to get different type of italics but not lines (AMS)
+  %  \def \@oddhead{\normalsize \itshape \hfill \rightmark \hfill \thepage}%
+   % \def \@evenhead{\normalsize \itshape \thepage \hfill \leftmark \hfill}%
+    
+  % merge of two heading definitions to get lines but not different type of italics (AMS)
+   %    \def\@oddhead{\makebox[\textwidth][l]{\underline{\hbox to \textwidth 
+    %  {\normalsize \raisebox{0ex}[0ex][1.2ex]{\slshape \rightmark}\hfill\thepage}}}}
+    %  \def\@evenhead{\makebox[\textwidth][r]{\underline{\hbox to \textwidth
+     %{\normalsize \raisebox{0ex}[0ex][1.2ex]\thepage\hfill{\slshape \leftmark}}}}}
 
     \let \@oddfoot = \@empty%
     \let \@evenfoot = \@empty%
