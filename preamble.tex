@@ -3,13 +3,11 @@
 %\makedeclaration
 
 \chapter*{}
-%\begin{flushright}
-\begin{center}
-\textit{TBD - For Nonna, and her tomato sauce.}
-\end{center}
-%\end{flushright}
+\begin{flushright}
+\textit{For Nonna.}
+\end{flushright}
 
-\begin{declaration}
+\begin{declaration} %TBD maybe take the paper references out?
 I, Arianna M. Sorba, confirm that the work presented in this thesis is my own.
 Where information has been derived from other sources, I confirm that this has been indicated.
 \\
@@ -28,19 +26,43 @@ In addition, I declare that the work presented in this thesis has been published
 \end{declaration}
 
 \begin{abstract} % 300 word limit
-TBD - based on examiner nomination form text.
-\blindtext
+This thesis explores how the configuration and dynamics of Saturn's magnetosphere are controlled by internal and external influences. 
+
+Saturn's magnetosphere has significant internal plasma sources; cold, dense plasma in the equatorial region originating from Enceladus, and a hotter, more variable population in the outer magnetosphere. The hot plasma influences the magnetic field structure via enhancement of the ring current, and also affects pressure balance at the magnetopause. This pressure balance controls how compressible the magnetosphere is in response to changing solar wind conditions. Using a 2-D force-balance model of Saturn's magnetodisc, we find that Saturn's magnetosphere is more compressible when the global hot plasma content is greater, and as the magnetosphere expands. We suggest this is predominantly driven by a reconfiguration of the magnetic field into a more disc-like structure under such conditions.
+
+In addition, periodic variations have been observed throughout Saturn's magnetosphere, at a period close to the planetary rotation rate. Recent studies suggest the equatorial current sheet periodically `flaps' above and below the rotational equator, and `breathes' in and out with varying current sheet thickness, in response to dual rotating magnetic perturbations. To investigate this behaviour, we use a family of force-balance models of different sizes in combination with a geometric current sheet model, and compare the results to magnetic field data measured by the \textit{Cassini} spacecraft in late 2009. We find that including the breathing behaviour in the model significantly improves model-data agreement, particularly for the meridional component.
+
+Finally, the configuration of Saturn's magnetosphere across local time is investigated. Average profiles of hot plasma pressure calculated from \textit{Cassini} observations are used as inputs to force-balance models of different sizes, to represent different local time sectors. The results demonstrate that local time variations in the hot plasma population and effective magnetodisc radius can significantly influence global magnetospheric structure.
+
 \end{abstract}
 
 \begin{impactstatement} % 500 word limit - http://www.grad.ucl.ac.uk/essinfo/docs/Impact-Statement-Guidance-Notes-for-Research-Students-and-Supervisors.pdf
-TBD. From Nick;  your work will advance knowledge in the general area of planetary plasma physics and has contributed to the fuller science exploitation of the Cassini legacy dataset".
-Inside or outside academia. Maybe what I put in my SWAP about the point of scientific research, international collaboration?
-\blindtext 
+In this thesis we present the results of research that will advance knowledge in the general area of planetary plasma physics, and the study of Saturn's magnetosphere in particular. 
+
+In Chapter~\ref{chap:compress}, we show results which suggest that future studies of the compressibility of Saturn's dayside magnetosphere may benefit from the assumption that the compressibility behaviour is not constant across all observations,  but varies with both system size and global hot plasma content. The results of this study have been published in \citet{sorba2017}, which has since been cited in other published research articles and therefore has already had an impact on the scientific community. 
+
+In Chapter~\ref{chap:equinox}, we present evidence for the periodic modulation in position and thickness of Saturn's equatorial current sheet, based on \textit{Cassini} magnetic field data. This study, recently published in \citet{sorba2018}, will be a useful contribution to the body of knowledge in this area, which is currently an area of active research.
+
+In Chapter~\ref{chap:LTsectors}, we provide insights into the local time variation in the large-scale structure of Saturn's magnetosphere. 
+%This type of study has only recently become possible thanks to the comprehensive dataset from the \textit{Cassini} space mission, which ceased taking measurements in September 2017. 
+The results of this study have recently been submitted for publication in \citet[][submitted]{sorba2019}. In particular, included in that publication are model outputs for how magnetic field lines map from the equatorial disc to the ionosphere at different local time sectors, which may be useful for members of the community in future studies of ionospheric phenomena.
+
+The work in this thesis has partially been the result of collaborations with academics based in other institutions in the UK and abroad. Such collaborations have a positive impact not only on the quality of research that is produced, but also on the social and cross-cultural relationships that are formed.
+
+Outside of academia, some of the work in this thesis has been presented to members of the public with non-scientific backgrounds, and school children at different stages in their education. This may help inspire the next generation of scientists to pursue academic careers, and also may encourage a scientific approach to interpreting evidence which may be beneficial in other aspects of every-day life.
+
+In addition, the work in this thesis has been presented to policy makers in the UK Government. This opportunity arose through a science policy internship I undertook at the Government Office for Science during my PhD. Therefore, the work in this thesis may have an impact on future public policy, by demonstrating the importance of `blue-skies’ scientific research, and encouraging continued funding in this area.
+
+The work in this thesis has contributed to the fuller science exploitation of the \textit{Cassini} space mission legacy dataset. It has therefore helped to demonstrate the scientific outcomes that can be achieved and insights that can be revealed by such large-scale space missions. In the long term, this may have an impact on campaigns for future space exploration missions, either to Saturn or the other outer planets Jupiter, Uranus or Neptune.
+
 \end{impactstatement}
 
 
 \begin{acknowledgements}
-TBD - everyone! Also maybe try and insert a dedication before this page?
+TBD.
+Nick. Always felt wiser (and calmer) coming out of a meeting than going in. Patrick, N. S. and all collaborators and coauthors for improving the quality of the work, providing advice, and showing me how to be a good scientist.
+Students and postdocs at UCL, in the office, in the kitchen, and occasionally in the pub. Made this experience worth it and made UCL Astrophysics a great place to be.
+Family for their support, encouragement and inspiration for setting out on this journey in the first place. Finally Ed, for always believing I could do this, even when I didn't.
 \blindtext
 \end{acknowledgements}
 
@@ -54,10 +76,12 @@ TBD - everyone! Also maybe try and insert a dedication before this page?
 \cleardoublepage %below 3 lines added by AMS to make appear in contents list following https://tex.stackexchange.com/questions/48509/insert-list-of-figures-in-the-table-of-contents
 \phantomsection
 \addcontentsline{toc}{chapter}{\listfigurename}
+
 \listoffigures
 
 \cleardoublepage %below 3 lines added by AMS to make appear in contents list
 \phantomsection
 \addcontentsline{toc}{chapter}{\listtablename}
+
 \listoftables
 
