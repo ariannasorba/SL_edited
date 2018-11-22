@@ -2,7 +2,7 @@
 % The \appendix command resets the chapter counter, and changes the chapter numbering scheme to capital letters.
 %\chapter{Appendices}
 \appendix
-\chapter{Updates to Magnetodisc Model Boundary Conditions} \label{appendix:sec:wilsonfits}
+\chapter{Updates to UCL/AGA Magnetodisc Model Boundary Conditions} \label{appendix:sec:wilsonfits}
 \section{Plasma Angular Velocity}\label{appendix:sec:plasmaomega}
 In Chapter~\ref{chap:equinox}, we mentioned how we updated the equatorial profile of plasma angular velocity $\omega$ in the magnetodisc model. The original profile was a sixth-order polynomial fit to azimuthal velocity measurements from studies by \citet{kane2008}, who used MIMI/INCA data, and \citet{wilson2008}, who used CAPS/IMS data \citep[more detail in][]{achilleos2010a}. This profile is shown by the blue line in Figure~\ref{appendix:fig:omegaprofile}. To better represent the plasma behaviour particularly in the outer magnetosphere, we updated this profile using more recent azimuthal velocity measurements from the study by \citet{wilson2017}. In that study the authors employed a more comprehensive CAPS data set, and an improved fitting technique, to derive median and upper/lower quartile values for equatorial azimuthal velocity in $\SI{0.5}{R_S}$ radial bins between 5.5 and $\SI{30}{R_S}$. These values, converted to angular velocities as a fraction of corotation using a planetary rotation rate $\Omega_S = \SI{1.6185e-4}{\radian\per\second}$ ($\SI{10.7833}{\hour}$ period), are shown by the black solid circles and error bars in Figure~\ref{appendix:fig:omegaprofile}. We fit the median values of azimuthal velocity with a fourth-order polynomial, of the form 
 %v_\phi =  a_1\rho^4 + a_2\rho^3 + a_3\rho^2 + a_4\rho +a_5
@@ -31,10 +31,10 @@ In Chapter~\ref{chap:LTsectors}, we mentioned how we updated the representation 
 \log{T} =  a_0+a_1\rho + a_2\rho^2 + a_3\rho^3 + a_4\rho^4
 \end{equation}
 with $T$ in units of $\si{eV}$ and cylindrical radial distance $\rho$ in units of $\si{R_S}$, again weighting each point by the inverse square of  the error, assumed  to be half the interquartile range of each bin. The coefficients of the best fit polynomials for each species are given in Table~\ref{appendix:tab:wilsonTpolys}.
-\begin{table} \label{appendix:tab:wilsonTpolys}
-\caption{Coefficients of fourth-order polynomial fits to the logarithm of the parallel and perpendicular temperatures for water group ($W^+$) and hydrogen ($H^+$) ions from \citet{wilson2017}, as per equation~(\ref{eq:fourthorderpoly}).}
+\begin{table}
+\caption{Coefficients of fourth-order polynomial fits to the logarithm of the parallel and perpendicular temperatures for water group ($W^+$) and hydrogen ($H^+$) ions from \citet{wilson2017}.}\label{appendix:tab:wilsonTpolys}
 \centering
-\begin{tabular}{c | c c | c c}
+\begin{tabular}{c | c c | c c}  
 \hline
 Moment 		& \multicolumn{2}{c |}{$T_\mathrm{perpendicular}$} 								& 	\multicolumn{2}{c}{$T_\mathrm{parallel}$} 	 \\
 Ion Species	&	$H^+$																&	$W^+$ 				&	$H^+$																		&	$W^+$ \\
