@@ -70,7 +70,7 @@
 
 % And then some settings in separate files.
 \input{FloatSettings} % For things like figures and tables - modify because both with and without are not great at the moment
-\input{BibSettings}   % For bibliographies
+%\input{BibSettings}   % For bibliographies
 
 % Title Settings
 \setcounter{secnumdepth}{3}
@@ -98,12 +98,14 @@
 %  *must not* include spaces.
 \include{preamble}
 \include{Chapters/introduction}
-%\include{Chapters/cass_chapter}
-%\include{Chapters/compressibility_chapter}
-%\include{Chapters/equinox_chapter}
-%\include{Chapters/LT_chapter}
-%\include{Chapters/conclusions}
-%\include{Chapters/appendices} 
+\include{Chapters/cass_chapter}
+\include{Chapters/compressibility_chapter}
+\include{Chapters/equinox_chapter}
+\include{Chapters/LT_chapter}
+\include{Chapters/conclusions}
+\include{Chapters/appendices} 
+
+%\include{testfile}
 % You could separate these out into different files if you have
 %  particularly large appendices.
 
@@ -114,7 +116,9 @@
 %\addcontentsline{toc}{chapter}{Bibliography}
 
 % Actually generates your bibliography.
-%\bibliography{main}
+
+\bibliographystyle{myapalike-refs}
+\bibliography{main}
 
 % All done. \o/
 \end{document}
