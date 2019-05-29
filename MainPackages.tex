@@ -161,3 +161,9 @@
 %%added by AMS for quotes at beginning of chapters
 \usepackage{epigraph}
 \renewcommand{\textflush}{flushright}
+
+\usepackage{changes}
+\makeatletter %make default changes color red
+\@namedef{Changes@AuthorColor}{red}
+\colorlet{Changes@Color}{red}
+\makeatother
