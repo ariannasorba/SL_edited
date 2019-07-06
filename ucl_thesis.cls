@@ -478,7 +478,8 @@
 %    \end{center}%
     \vspace{2em}%
     \begin{center}%
-    \@date%
+    %\@date% removed by AMS so I can change to the date I actually got corrections accepted
+    13 June 2019%
     \end{center}%
     \if@twoside %
       \newpage% 
